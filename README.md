@@ -6,6 +6,6 @@ detect full (a.k.a. Vanilla) and half (a.k.a. SYN scan) scans.
 While running the script, time parameter should also be given with -t switch which will define the working duration. 0 is
 continuous run.
 
-Example: python portScanDetector.py -t 5
+          <b> python portScanDetector.py -t 5 </b>
 
 which indicates program will run for 5 minutes and then stop. 
