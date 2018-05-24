@@ -8,4 +8,6 @@ continuous run.
 
           python portScanDetector.py -t 5
 
-which indicates program will run for 5 minutes and then stop. 
+which indicates program will run for 5 minutes and then stop.
+
+P.S.: The script possibly only runs in GNU/Linux since socket.AF_PACKET (line 172) is almost specific. The closest equivalent of AF_PACKET in Mac OS world may be bpf, however author is emphatically not interested in supporting such systems. 
